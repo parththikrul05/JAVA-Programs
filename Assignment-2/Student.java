@@ -7,7 +7,9 @@ public class Student {
         System.out.println("Roll number:"+roll_number);
     }
     //Function overloading - Same function name but different number of parameters
-    Student(){ //default Constructor
+    Student(){  //default Constructor
+        student_name = "Raghav";
+        roll_number = 202;
     }
     Student(int p,String n){ //Parameterized Constructor
         student_name=n;
