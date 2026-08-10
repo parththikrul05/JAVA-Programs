@@ -1,0 +1,15 @@
+Patient ID: 3122
+Name: Parth
+Age: 18
+Diagnosis: Fever
+-------------------------
+Patient ID: 2313
+Name: Raghav
+Age: 19
+Diagnosis: Acne Scar
+-------------------------
+Patient ID: 1112
+Name: Yatharth
+Age: 18
+Diagnosis: Throat Infection
+-------------------------
