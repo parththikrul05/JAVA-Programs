@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS library_db;
+USE library_db;
+
+CREATE TABLE IF NOT EXISTS books (
+    book_id INT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(150) NOT NULL,
+    author VARCHAR(100) NOT NULL,
+    publisher VARCHAR(100),
+    quantity INT NOT NULL DEFAULT 1
+);
