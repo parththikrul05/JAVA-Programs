@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class EmployeeCRUD {
     private static final String URL = "jdbc:mysql://localhost:3306/company_db";
     private static final String USER = "root";
-    private static final String PASSWORD = "Parth@0510"; // Replace with your MySQL password
+    private static final String PASSWORD = "Pass"; // Replace with your MySQL password
 
     public static void main(String[] args) {
         try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
